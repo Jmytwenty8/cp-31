@@ -41,9 +41,6 @@ function solve(n, a, b) {
     }
 
     let res = 0;
-    for (let i = 0; i < n; i++) {
-
-    }
 
     console.log(Math.abs(numberGreaterThanIndexInAatB.reduce((x, y) => (x * y) % 1000000007, 1)));
 
